@@ -1,0 +1,180 @@
+body {
+  background-color: #9c835f;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 1440px) {
+  .container {
+    width: calc(100% - 80px);
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.header-back {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #724c21;
+  text-decoration: none;
+  margin-right: 30px;
+  transition: all 0.25s linear;
+}
+.header-back:focus,
+.header-back:hover {
+  transform: scale(1.25, 1.25);
+  transition: all 0.25s linear;
+}
+
+.header-logo {
+  margin-right: 30px;
+}
+
+.header-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #f9b23d;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.com-side,
+.player-side {
+  text-align: center;
+}
+
+.com-side-title,
+.player-side-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.player-side-item {
+  cursor: pointer;
+}
+
+.com-side-item img,
+.player-side-item img {
+  margin-bottom: 80px;
+  border-radius: 30px;
+  transition: all 0.25s linear;
+}
+.com-side-item img.active,
+.player-side-item img.active,
+.player-side-item img:focus,
+.player-side-item img:hover {
+  background-color: #c4c4c4;
+  transition: all 0.25s linear;
+}
+
+.com-side-item .batu,
+.player-side-item .batu {
+  padding: 58px 48px;
+}
+
+.com-side-item .kertas,
+.player-side-item .kertas {
+  padding: 28px 54px;
+}
+
+.com-side-item .gunting,
+.player-side-item .gunting {
+  padding: 22px 45px;
+}
+
+.vs-side {
+  width: 296px;
+  text-align: center;
+}
+
+.vs-side span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 196px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #bd0000;
+}
+
+.com-win-side,
+.player-win-side,
+.draw-side {
+  background-color: #4c9654;
+  transform: rotate(-30.98deg);
+  width: 270px;
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.com-win-side p,
+.player-win-side p,
+.draw-side p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.refresh {
+  text-align: center;
+  margin-top: -80px;
+  margin-bottom: 80px;
+}
+
+.refresh img {
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+.refresh img:focus,
+.refresh img:hover {
+  transform: scale(1.25, 1.25);
+  transition: all 0.25s linear;
+}
+
+.none {
+  display: none;
+}
