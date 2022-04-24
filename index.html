@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Open Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link href="style.css" rel="stylesheet" />
+    <link href="custom.css" rel="stylesheet" />
+
+    <title>Tugas Chapter 3</title>
+  </head>
+  <body>
+    <section id="main">
+      <nav class="navbar navbar-expand-lg navbar-dark py-4">
+        <div class="container">
+          <a class="navbar-brand py-0" href="#">LOGO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link py-0 px-3" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-0 px-3" aria-current="page" href="#"
+                  >Work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-0 px-3" aria-current="page" href="#"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-0 px-3" aria-current="page" href="#"
+                  >About Me</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link py-0 px-3" aria-current="page" href="#"
+                  >Sign In</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-0 px-3" aria-current="page" href="#"
+                  >Login</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="main-background min-vh-100 d-flex justify-content-center align-items-center"
+      >
+        <div class="main-background-inner text-center">
+          <h1 class="main-background-title">Play Traditional Game</h1>
+          <h3 class="main-background-subtitle">
+            Experience New Traditional Game Play
+          </h3>
+          <a
+            class="main-background-button btn btn-warning py-3"
+            href="challenge-4/index.html"
+            >TRIAL</a
+          >
+        </div>
+      </div>
+      <div class="main-scrolldown text-center">
+        <span>The Story</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          fill="currentColor"
+          class="bi bi-caret-down"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+          />
+        </svg>
+      </div>
+    </section>
+    <!-- End Main -->
+
+    <!-- Start About Gallery -->
+    <section id="about-gallery" class="min-vh-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 about">
+            <h3>What's So Special?</h3>
+            <h1>THE GAMES</h1>
+          </div>
+          <div class="col-8 gallery">
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/rockpaperstrategy-1.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/rockpaperstrategy-1.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/rockpaperstrategy-1.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Gallery-->
+
+    <!-- Start Game Features -->
+    <section id="game-features" class="min-vh-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-7"></div>
+          <div class="col-5 features">
+            <h3>What's So Special?</h3>
+            <h1>FEATURES</h1>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item bg-transparent border-0">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed py-0 pr-0 bg-transparent"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Traditional Games
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    If you miss your childhood, we provide many traditional
+                    games here
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-transparent border-0">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed py-0 pr-0 bg-transparent"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Game Suit
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    If you miss your childhood, we provide many traditional
+                    games here
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-transparent border-0">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed py-0 pr-0 bg-transparent"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    TBD
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    If you miss your childhood, we provide many traditional
+                    games here
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Game Features-->
+
+    <!-- Start System Requirement-->
+    <section id="system-req" class="min-vh-100">
+      <div class="container">
+        <h3 class="system-req-subtitle text-center">
+          Can My Computer Run This Game?
+        </h3>
+        <div class="row">
+          <div class="col-6">
+            <h1 class="system-req-title">System Requirements</h1>
+            <div class="row gx-0">
+              <div class="col-6">
+                <div class="border border-white system-req-item">
+                  <h3>OS:</h3>
+                  <ul class="list-unstyled">
+                    <li>Windows 7 64-bit only</li>
+                    <li>(NO OSX support at this time)</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="border border-white system-req-item">
+                  <h3>PROCESSOR:</h3>
+                  <ul class="list-unstyled">
+                    <li>Intel Core 2 Duo @ 2.4 GHZ</li>
+                    <li>or AMD Athlon X2 @ 2.8 GHZ</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="border border-white system-req-item">
+                  <h3>MEMORY:</h3>
+                  <ul class="list-unstyled">
+                    <li>4 GB RAM</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="border border-white system-req-item">
+                  <h3>STORAGE:</h3>
+                  <ul class="list-unstyled">
+                    <li>8 GB Available Space</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="border border-white system-req-item">
+                  <h3>GRAPHIC:</h3>
+                  <ul class="list-unstyled">
+                    <li>NVIDIA GeForce GTX 660 2GB or</li>
+                    <li>AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End System Requirement-->
+    <!-- Start Top Score-->
+    <section id="top-scores" class="min-vh-100 text-white">
+      <div class="container min-vh-100">
+        <div class="row min-vh-100 justify-content-center">
+          <div class="col-4 d-flex flex-column justify-content-center">
+            <h1 class="top-scores-title">Top Scores</h1>
+            <p class="top-scores-content">
+              This top score from various games provided on this platform
+            </p>
+            <button class="btn btn-warning top-scores-button align-self-start">
+              See More
+            </button>
+          </div>
+          <div class="col-2"></div>
+          <div class="col-6">
+            <div class="top-scores-twit"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Top Score-->
+    <!-- Javascript-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
